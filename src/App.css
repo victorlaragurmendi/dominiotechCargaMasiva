@@ -110,3 +110,16 @@ margin-bottom: -10px;
 .contenedorExportMasiva>span:nth-child(4){
   color:blue;
 }
+
+.BarraCarga{
+  width: 10%;
+  margin: auto;
+}
+
+.contenedorDragDrop{
+ padding: 1.5rem;
+  display: inline-block;
+  border: 3px dashed blue;
+  width: 80%;
+  
+}
