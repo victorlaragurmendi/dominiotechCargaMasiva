@@ -9,10 +9,7 @@ import {useDropzone} from 'react-dropzone'
 //libreria para  barra de carga 
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-
-
-
-
+import App2 from './App2';
 
 
 function App() {
@@ -21,7 +18,6 @@ function App() {
   const onDrop = useCallback(acceptedFiles => {
     console.log(acceptedFiles);
   }, [])
-
 
 
 
@@ -38,7 +34,6 @@ function App() {
   
     return null
   }
-
 
   const {
     acceptedFiles,
@@ -113,6 +108,7 @@ function App() {
        </div>
 
       </div>
+      <App2/>
     </div>
   );
 }
